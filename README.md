@@ -41,8 +41,8 @@ GitBash Instalado;
 ## IMPORTANDO REPOSITÓRIO DO GIT
 Para usar "pull" nos arquivos, abra seu bash no diretório desejado e execute os seguintes comandos:
 - git init
-- git remote add origin https://github.com/matheus-paiva/Di2win-PWA
-- git pull https://github.com/matheus-paiva/Di2win-PWA
+- git remote add origin https://github.com/Willyan-Braga/entregaIntegra-o
+- git pull https://github.com/Willyan-Braga/entregaIntegra-o
 
 ## USANDO COMMITS
 Depois de fazer o passo anterior, use os seguintes comandos no seu bash:
