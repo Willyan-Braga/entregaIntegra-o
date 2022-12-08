@@ -28,16 +28,16 @@
 
         <div class="input">
           <label for="email">E-mail</label>
-          <input type="email" name="email" placeholder="Entre com seu e-mail">
+          <input [(ngModel)]="requestLogin.login" type="email" name="email" placeholder="Entre com seu e-mail">
         </div>
 
         <div class="input">
           <label for="senha">Senha</label>
-          <input type="password" name="senha" placeholder="Senha">
+          <input [(ngModel)]="requestLogin.password" type="password" name="senha" placeholder="Senha">
         </div>
 
         <div class="btn">
-          <input id="submit" type="submit" name="enviar" value="Entrar">
+          <input (click)="doLogin()" id="submit" type="submit" name="enviar" value="Entrar">
         </div>
 
         <span>Esqueceu sua senha? <a routerLink="/usernamerecovery">Clique aqui</a></span>
